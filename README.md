@@ -34,3 +34,9 @@ streamlit run app.py
 ## 📸 Demo
 ![Demo](c:\Users\16122\OneDrive\Pictures\Screenshots\demo.png
 )
+
+## 👤 Author
+- Aparna
+
+## ⭐ If you like this project
+Give it a star ⭐ on GitHub!
