@@ -32,4 +32,5 @@ pip install -r requirements.txt
 streamlit run app.py
 
 ## 📸 Demo
-![Demo](demo.png)
+![Demo](c:\Users\16122\OneDrive\Pictures\Screenshots\demo.png
+)
