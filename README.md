@@ -1,26 +1,35 @@
-# Hindi Song Recommendation System 🎵
+# 🎵 Hindi Song Recommendation System (PRO)
 
-## Overview
-A content-based recommendation system that suggests Hindi songs
-based on lyrics, song name, or mood using NLP embeddings.
+## 📌 Overview
+A content-based Hindi music recommendation system that suggests
+similar songs based on lyrics, song titles, or mood using
+transformer-based NLP embeddings.
 
-## Features
-- Lyrics-based recommendations
-- Mood-based filtering
-- Transformer embeddings
-- Streamlit UI
+## 🚀 Features
+- Lyrics / song-name based recommendations
+- Mood-based song filtering
+- Sentence-transformer embeddings
+- Cosine similarity for matching
+- Streamlit interactive UI
+- Modular and scalable project structure
 
-## Tech Stack
+## 🛠️ Tech Stack
 - Python
 - Sentence Transformers
-- Scikit-learn
 - LangChain
+- Scikit-learn
 - Streamlit
 
-## How It Works
-- Converts song lyrics into embeddings
-- Uses cosine similarity to find similar songs
+## ⚙️ How It Works
+1. Song lyrics and metadata are converted into vector embeddings
+2. User input is embedded using the same model
+3. Cosine similarity finds the most similar songs
+4. Top-N recommendations are returned
 
-## Future Scope
-- Spotify Wrapped integration
-- Personalized user recommendations
+## ▶️ How to Run
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+
+## 📸 Demo
+![Demo](demo.png)
